@@ -1,0 +1,24 @@
+{
+    "name": "chenkby/yii2-mobile-validator",
+    "description": "手机号码验证(中国)",
+    "keywords": [
+        "yii2",
+        "mobile number validate"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Chen GuanQun",
+            "email": "99912250@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "chenkby\\mobileValidator\\": "src"
+        }
+    }
+}
